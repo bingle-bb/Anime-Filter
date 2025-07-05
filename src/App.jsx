@@ -11,7 +11,7 @@ const App = () => {
   useEffect(() => {
     axios
       .get(
-        "https://kitsu.io/api/edge/anime?filter[subtype]=movie&filter[seasonYear]=2024&page[limit]=20"
+        "https://kitsu.io/api/edge/anime?filter[subtype]=movie&filter[seasonYear]=2025&page[limit]=16"
       )
       .then((res) => setAnimeList(res.data.data))
       .catch((err) => console.log("Error:", err))
@@ -27,7 +27,7 @@ const App = () => {
   if (isLoading) {
     return (
       <div className="min-vh-100 bg-light p-4">
-        <h1 className="text-center mb-4">Anime Movies (2024)</h1>
+        <h1 className="text-center mb-4">Anime Movies (2025)</h1>
         <div className="d-flex justify-content-center py-5">
           <div className="spinner-border text-warning" role="status">
             <span className="visually-hidden">Loading...</span>
