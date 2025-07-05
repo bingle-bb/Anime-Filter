@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@fontsource/noto-sans-jp": "^5.2.6",
+    "@fontsource/noto-sans-sunuwar": "^5.2.1",
     "axios": "^1.10.0",
     "bootstrap": "^5.3.7",
     "react": "^19.1.0",

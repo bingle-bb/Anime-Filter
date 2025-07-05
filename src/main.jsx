@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 
 //font import
-import "@fontsource/noto-sans-jp";
+import "@fontsource/noto-sans-sunuwar/400.css";
 
 import App from "./App.jsx";
 
