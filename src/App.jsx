@@ -39,7 +39,7 @@ const App = () => {
 
   return (
     <div className="min-vh-100 bg-light p-4">
-      <h1 className="text-center mb-4">Anime Movies (2024)</h1>
+      <h1 className="text-center mb-4">Anime Movies (2025)</h1>
       <Filter search={search} setSearch={setSearch} />
       <div className="row g-4 justify-content-center">
         {filteredAnime.length > 0 ? (
