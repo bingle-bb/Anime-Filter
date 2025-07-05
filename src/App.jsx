@@ -29,7 +29,7 @@ const App = () => {
       <div className="min-vh-100 bg-light p-4">
         <h1 className="text-center mb-4">Anime Movies (2024)</h1>
         <div className="d-flex justify-content-center py-5">
-          <div className="spinner-border text-primary" role="status">
+          <div className="spinner-border text-warning" role="status">
             <span className="visually-hidden">Loading...</span>
           </div>
         </div>
